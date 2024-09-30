@@ -13,8 +13,10 @@ resources:
     path: static/hello-world/build
     tunnel:
       port: 3000
-
+permissions:
+  scopes:
+    - read:me
 app:
   runtime:
     name: nodejs20.x
-  id: ari:cloud:ecosystem::app/e681acf7-16c2-4af0-ae39-8009d041a774
+  id: ari:cloud:ecosystem::app/79bd4c47-7162-489d-9344-a1fef3f206fc
